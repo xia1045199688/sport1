@@ -1,0 +1,192 @@
+body{
+    width: 100%;
+    background-color: #000000;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.footer{
+    width: 100%;
+    height: 4.25rem;
+    background-color: #ffffff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+}
+.footer a{
+    font-size: 1.15rem;
+    color: #393939;
+    line-height: 4.25rem;
+}
+.footer ul{
+    width: 100%;
+    height: 4.25rem;
+}
+.footer ul li{
+    width: 20%;
+    height: 4.25rem;
+    float: left;
+}
+.footer ul li div{
+    display: inline-block;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin: 1.5rem 0.2rem 0 0;
+    vertical-align: top;
+    background: url("../img2/home_2.png") no-repeat center;
+    background-size: 100% 100%;
+}
+.footer ul li.nav-5 a{
+    color: #c01c2e;
+}
+.content{
+    width: 100%;
+    margin-top: 5rem;
+    background-color: #000000;
+    overflow: hidden;
+    margin-bottom: 4.25rem;
+}
+.content-main{
+    width: 29rem;
+    margin: 0 auto;
+    overflow: hidden;
+    /*padding-bottom: 4.25rem;*/
+}
+.content-title{
+    text-align: center;
+    margin-top: 3.5rem;
+}
+.content-title h5{
+    font-size: 2rem;
+    color: #ffffff;
+    font-weight: normal;
+    font-style: italic;
+    letter-spacing: 0.05rem;
+}
+.content-title p{
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: normal;
+    letter-spacing: 0.05rem;
+    margin-top: 1rem;
+}
+.content-main form{
+    margin-top: 1rem;
+    overflow: hidden;
+}
+.form-1,.form-2,.form-3,.form-4,.form-5{
+    width: 23rem;
+    height: 3.1rem;
+    margin: 2rem auto 0;
+    position: relative;
+}
+.form-1 input,.form-2 input,.form-3 input{
+    width: 18.4rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    line-height: 3rem;
+    border: 0.05rem solid #c0c0c0;
+    padding: 0 0.5rem 0 1rem;
+    background: none;
+    color: #ffffff;
+    outline: none;
+    float: right;
+}
+.form-1 input::-webkit-input-placeholder,.form-2 input::-webkit-input-placeholder,.form-3 input::-webkit-input-placeholder{
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+.form-1 input:-moz-placeholder,.form-2 input:-moz-placeholder,.form-3 input:-moz-placeholder{
+    color: #ffffff;
+    opacity: 1;
+    font-size: 1.2rem;
+}
+.form-1 input::-moz-placeholder,.form-2 input::-moz-placeholder,.form-3 input::-moz-placeholder{
+    color: #ffffff;
+    opacity: 1;
+    font-size: 1.2rem;
+}
+.form-1 input:-ms-input-placeholder,.form-2 input:-ms-input-placeholder,.form-3 input:-ms-input-placeholder{
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+.form-4 select,.form-5 select{
+    width: 20rem;
+    height: 3.1rem;
+    font-size: 1.2rem;
+    line-height: 3.1rem;
+    border: 0.05rem solid #c0c0c0;
+    background: none;
+    color: #ffffff;
+    outline: none;
+    float: right;
+    text-indent: 1rem;
+}
+.form-4 select option,.form-5 select option{
+    color: #000000;
+}
+.form-1 div{
+    width: 1.6rem;
+    height: 1.7rem;
+    position: absolute;
+    left: 0.4rem;
+    top: 0.7rem;
+}
+.form-2 div{
+    width: 1.6rem;
+    height: 1.5rem;
+    position: absolute;
+    left: 0.4rem;
+    top: 0.7rem;
+}
+.form-3 div{
+    width: 1.6rem;
+    height: 1.6rem;
+    position: absolute;
+    left: 0.4rem;
+    top: 0.7rem;
+}
+.form-4 div{
+    width: 1.75rem;
+    height: 1.6rem;
+    position: absolute;
+    left: 0.4rem;
+    top: 0.7rem;
+}
+.form-5 div{
+    width: 1.75rem;
+    height: 1.9rem;
+    position: absolute;
+    left: 0.4rem;
+    top: 0.7rem;
+}
+.form-6{
+    width: 22.2rem;
+    height: 3.3rem;
+    margin:3.5rem 0 4.5rem 4rem;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+.form-6 input{
+    width: 22.2rem;
+    height: 3.3rem;
+    font-size: 1.2rem;
+    line-height: 3.3rem;
+    background-color: #c01c2e;
+    cursor: pointer;
+    text-indent: 2.1rem;
+    color: #ffffff;
+    outline: none;
+    border: none;
+}
+.form-6 div{
+    width: 1.05rem;
+    height: 1.55rem;
+    float: left;
+    position: absolute;
+    left: 7.5rem;
+    top: 0.9rem;
+}
